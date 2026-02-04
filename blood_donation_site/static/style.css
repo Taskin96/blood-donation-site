@@ -1,0 +1,19 @@
+body {
+    font-family: Poppins, Arial;
+    background: white;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #C62828;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+button {
+    background: #C62828;
+    color: white;
+    border: none;
+}

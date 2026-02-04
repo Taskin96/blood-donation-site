@@ -1,0 +1,14 @@
+<h2>Donor Dashboard</h2>
+
+<p>Name: {{ user[1] }}</p>
+<p>Blood Group: {{ user[4] }}</p>
+<p>Last Donation: {{ user[5] }}</p>
+<p>Next Eligible Date: {{ eligible_date }}</p>
+
+{% if eligible %}
+<h3 style="color:green">You are eligible to donate</h3>
+{% else %}
+<h3 style="color:red">You are not eligible yet</h3>
+{% endif %}
+
+<a href="/logout">Logout</a>
